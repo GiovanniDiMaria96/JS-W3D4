@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3D4</title>
+    <script src="./s3p2-scaricabile.js" defer></script>
+    <style>
+        img {
+            max-width: 20%;
+        }
+
+        body {
+            text-align: center;
+            font-family: "Amazon Ember", Arial, sans-serif;
+            color: darkgrey;
+            background-color: darkgray;
+        }
+
+        nav {
+            background-color: #303030;
+            padding: 1%;
+        }
+
+        p {
+            font-family: "Amazon Ember", Arial, sans-serif;
+            font-weight: bold;
+            color: #303030;
+        }
+
+        #card {
+            padding: 5%;
+            background-color: white;
+        }
+
+        h2 {
+            color: #303030;
+        }
+
+        h3 {
+            border-top: 1px solid #303030;
+            padding: 3%;
+        }
+
+        button {
+            border: none;
+            width: 100%;
+        }
+
+        footer {
+            background-color: #303030;
+            padding: 1%;
+
+        }
+
+        ul li {
+            list-style: none;
+            display: inline-block;
+            padding-right: 1%;
+        }
+
+        input {
+            width: 100%;
+        }
+
+        #modalitaScura {
+            max-width: 20%
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h1></h1>
+        <div id="modalitaScura">
+            <button onclick="modalitaScura()"><img src="./assets/dark-theme.256x256.png" alt=""></button>
+        </div>
+        <div id="modalitaScura">
+            <button onclick="invisibile()"><img src="./assets/icon.png" alt=""></button>
+            </div>
+    </nav>
+
+
+
+    <div id="card">
+        <div>
+            <img src="./assets/smartphone.jpg" alt="">
+            <div>
+                <a
+                    href="https://www.amazon.it/Xiaomi-Smartohone-Snapdragon-Processor-Charging（Midnight/dp/B0CRK2Y9V8/ref=sr_1_1_sspa?__mk_it_IT=ÅMÅŽÕÑ&crid=1MGYA392QWSV6&dib=eyJ2IjoiMSJ9.DwBHBa71C4DoC8_8hiz5EI_sbn2WIqOyyqOwXY7s3rZf7bawfVBMLoE-H5h9iqp3Y88ivtwXjp7AzPEmamiQy7QOPe51F9ma2wunqBmdWneTlb6rTWp8aG0ta9qp5Y7soofLJOBa4ukJHOe5gG41EgFUmc9RayeC6cpX_PkwlQshCENIgbDyX5j2Cpeluj_ypao73p-XvMU50Tk3MvPegQHdbx33QpHKRTy-S2hb_4hlHtBdiN9cZaADG4Ijr-z9Lpe3VCFGHGd35Y5jJXTgvr0lWmQIVSfqrj45cINqA3Q.rMVRN1jXlVOiT0dzr9PWfN6nxSShXQG4baV6_HzIaWg&dib_tag=se&keywords=smartphone+xiaomi&qid=1711846115&sprefix=smartphone+xiaomi%2Caps%2C92&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+
+                    <h2>
+                        SMARTPHONE
+                    </h2>
+                    <p>
+                        Xiaomi Redmi Note 13 4G Unlocked Smartohone 8+128GB 6.67" 120Hz AMOLED Display 108MP Triple
+                        Camera Snapdragon 685 Processor 5000mAh Battery 33W Fast Charging（Midnight Black）
+                    </p>
+
+                </a>
+                <h3>
+                    Prezzo € 170,00
+                </h3>
+                <input type="text" placeholder="Cosa ne pensi? Facci sapere la tua opinione.">
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div id="card">
+        <div>
+            <img src="./assets/redmiwatch.jpg" alt="">
+            <div>
+                <a
+                    href="https://www.amazon.it/dp/B0C7R1RN2D/ref=sspa_dk_detail_2?psc=1&pd_rd_i=B0C7R1RN2D&pd_rd_w=lXNJo&content-id=amzn1.sym.7ef04998-a968-4397-9cab-635d55e2c83b&pf_rd_p=7ef04998-a968-4397-9cab-635d55e2c83b&pf_rd_r=AMCR9D8EB4DNRJ7J7N1H&pd_rd_wg=Us0rx&pd_rd_r=36b025f0-c55e-452f-8be4-8550cce3fa2d&s=electronics&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw">
+
+                    <h2>
+                        SMARTWATCH
+                    </h2>
+                    <p>
+                        Xiaomi Redmi Watch 3 Active, Display LCD 1.83", Telefonate Bluetooth, Monitoraggio della
+                        SpO2 e Frequenza Cardiaca, Resistenza all'Acqua 5ATM, Autonomia di 12 giorni, 100+ Modalità
+                        Fintness, Nero
+                    </p>
+
+                </a>
+                <h3>
+                    Prezzo € 39,00
+                </h3>
+                <input type="text" placeholder="Cosa ne pensi? Facci sapere la tua opinione.">
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="card">
+        <div>
+            <img src="./assets/redmiprinter.jpg" alt="">
+            <div>
+                <a
+                    href="https://www.amazon.it/Xiaomi-Stampante-Portatile-fotografica-Connessione/dp/B08S3WD62C/ref=sr_1_13?crid=1ALJAI0UE7J4M&dib=eyJ2IjoiMSJ9.M7MoW2J7gHdHB40VqKp1VoFg1CsegSgMlk2D98DBCLTT3OM5xTOOmLcyoHIB5iUS0_gTo9Oh1brkRjJT6PIoos4vL_B4odDBeEjSzSCuYJ5OK1stEw2wyufW2ziWn25kUKnAlZEnN3kOzTE5JWEVvZneOa4HrvmmZzdfw5OEsvMBFL_nh-ju1sPqid5232bPW_D1icvFIi11t0UwmgL04uPeNuBbexPv5W884kZ_u8-rpgMxHlhQHeuiu0JjoPCndG4EHz5e_K9SH4EXx2-wMz8E7bgfbdqXiQHjznOXmwg.mjwrdPc3n52TCRnHHzukSt42uCvlrciRsK_Qqg7ydsg&dib_tag=se&keywords=xiaomi+accessori&qid=1711846269&sprefix=xiaomi+acc%2Caps%2C98&sr=8-13">
+
+                    <h2>
+                        PORTABLE PRINTER
+                    </h2>
+                    <p>
+                        Xiaomi Mi Portable Photo Printer, stampante laser portatile, carta fotografica lucida,
+                        stampa termica, filtri multipli, collage di foto, connessione Bluetooth/USB/WiFi, bianco,
+                        versione italiana
+                    </p>
+
+                </a>
+                <h3>
+                    Prezzo € 65,99
+                </h3>
+                <input type="text" placeholder="Cosa ne pensi? Facci sapere la tua opinione.">
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="card">
+        <div>
+            <img src="./assets/redmipowerbank.jpg" alt="">
+            <div>
+                <a
+                    href="https://www.amazon.it/Batteria-esterna-Xiaomi-Redmi-Charge/dp/B08861XCML/ref=sr_1_9?crid=1ALJAI0UE7J4M&dib=eyJ2IjoiMSJ9.M7MoW2J7gHdHB40VqKp1VoFg1CsegSgMlk2D98DBCLTT3OM5xTOOmLcyoHIB5iUS0_gTo9Oh1brkRjJT6PIoos4vL_B4odDBeEjSzSCuYJ5OK1stEw2wyufW2ziWn25kUKnAlZEnN3kOzTE5JWEVvZneOa4HrvmmZzdfw5OEsvMBFL_nh-ju1sPqid5232bPW_D1icvFIi11t0UwmgL04uPeNuBbexPv5W884kZ_u8-rpgMxHlhQHeuiu0JjoPCndG4EHz5e_K9SH4EXx2-wMz8E7bgfbdqXiQHjznOXmwg.mjwrdPc3n52TCRnHHzukSt42uCvlrciRsK_Qqg7ydsg&dib_tag=se&keywords=xiaomi+accessori&qid=1711846269&sprefix=xiaomi+acc%2Caps%2C98&sr=8-9">
+
+                    <h2>
+                        POWERBANK
+                    </h2>
+                    <p>
+                        Batteria esterna Xiaomi Redmi 18 W Fast Charge Black - 20000 mAh - Ingresso Micro USB/USB
+                        Tipo C - Uscita 2 x USB-A
+
+                </a>
+                <h3>
+                    Prezzo € 29,99
+                </h3>
+                <input type="text" placeholder="Cosa ne pensi? Facci sapere la tua opinione.">
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="card">
+        <div>
+            <img src="./assets/redmibuds.jpg" alt="">
+            <div>
+                <a
+                    href="https://www.amazon.it/Xiaomi-bluetooth-impermeabile-auricolari-cancellazione/dp/B0BYDDYG3P/ref=sr_1_12?crid=1ALJAI0UE7J4M&dib=eyJ2IjoiMSJ9.M7MoW2J7gHdHB40VqKp1VoFg1CsegSgMlk2D98DBCLTT3OM5xTOOmLcyoHIB5iUS0_gTo9Oh1brkRjJT6PIoos4vL_B4odDBeEjSzSCuYJ5OK1stEw2wyufW2ziWn25kUKnAlZEnN3kOzTE5JWEVvZneOa4HrvmmZzdfw5OEsvMBFL_nh-ju1sPqid5232bPW_D1icvFIi11t0UwmgL04uPeNuBbexPv5W884kZ_u8-rpgMxHlhQHeuiu0JjoPCndG4EHz5e_K9SH4EXx2-wMz8E7bgfbdqXiQHjznOXmwg.mjwrdPc3n52TCRnHHzukSt42uCvlrciRsK_Qqg7ydsg&dib_tag=se&keywords=xiaomi+accessori&qid=1711846269&sprefix=xiaomi+acc%2Caps%2C98&sr=8-12">
+
+                    <h2>
+                        EARBUDS
+                    </h2>
+                    <p>
+                        Xiaomi Redmi Buds 4 Lite cuffie bluetooth 5.3, 20 ore di durata della batteria, IP54
+                        impermeabile, Touch Control, auricolari bluetooth con cancellazione del rumore AI per le
+                        chiamate, Bianco
+                    </p>
+
+                </a>
+                <h3>
+                    Prezzo € 22,00
+                </h3>
+                <input type="text" placeholder="Cosa ne pensi? Facci sapere la tua opinione.">
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <ul>
+            <li>
+                "ElectroTech Direct"
+            </li>
+
+            <li>
+                Via Emilia San Pietro 22, Reggio Emilia (RE)
+            </li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
